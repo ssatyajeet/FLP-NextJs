@@ -1,0 +1,43 @@
+.header {
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-color);
+}
+
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--hover-color);
+}
+
+.activeLink {
+  color: var(--active-color);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+/* Dark mode variables are handled via CSS custom properties in globals.css */ 
